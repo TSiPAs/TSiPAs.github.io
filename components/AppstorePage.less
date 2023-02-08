@@ -1,0 +1,13 @@
+.appstore-page-large-navbar {
+  &:not(.router-navbar-transition-from-large) .title-large {
+    opacity: 0;
+    pointer-events: none;
+  }
+  &.appstore-page-no-collapsed-navbar {
+    --f7-navbar-height: 0px;
+    --f7-navbar-large-title-height: 96px;
+    .title {
+      display: none;
+    }
+  }
+}
